@@ -1,6 +1,6 @@
-# dnd
+# Design And Dev
 
-A new Flutter project.
+A portfolio app made using flutter.
 
 ## Getting Started
 
