@@ -1,5 +1,6 @@
 name: dnd
-description: "A new Flutter project."
+description: "Design And Dev"
+
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -40,6 +41,7 @@ dependencies:
   font_awesome_flutter: ^10.8.0
   flutter_downloader: ^1.11.8
   open_file: ^3.5.10
+
 
 dev_dependencies:
   flutter_test:
