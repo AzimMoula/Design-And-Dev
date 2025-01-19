@@ -1,13 +1,10 @@
 import 'dart:io';
-
 import 'package:dnd/widgets/content.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_downloader/flutter_downloader.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:open_file/open_file.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class HomePage extends StatelessWidget {
@@ -116,8 +113,8 @@ class HomePage extends StatelessWidget {
                             ]),
                         child: ElevatedButton(
                           onPressed: () async {
-                            final ByteData data = await rootBundle.load(
-                                'assets/Comp assignment-3.pdf'); //actual file name
+                            final ByteData data = await rootBundle
+                                .load('assets/sample.pdf'); //actual file name
                             final directory = Directory(
                                 '/storage/emulated/0/Download'); //downloads folder
                             final path =
