@@ -8,9 +8,8 @@ import 'package:open_file/open_file.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class HomePage extends StatelessWidget {
-  HomePage({super.key});
-  final TextStyle style = GoogleFonts.albertSans(
-      color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold);
+  const HomePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -187,6 +186,7 @@ class HomePage extends StatelessWidget {
             );
           },
         ),
+
       ),
     );
   }
